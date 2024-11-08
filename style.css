@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: lightblue;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
     color: #fff;
 }
 h1{
@@ -18,7 +18,7 @@ form{
     max-width: 600px;
     margin: auto;
     height: 80px;
-    background: #b2b3c3;
+    background: #d8eafd;
     display: flex;
     align-items: center;
     border-radius: 8px;
@@ -36,7 +36,7 @@ form input{
 form button{
     padding: 0 40px;
     height: 100%;
-    background: #ff3929;
+    background:#5a9dfb;
     color: #fff;
     font-size: 18px;
     border: 0;
@@ -45,6 +45,9 @@ form button{
     border-bottom-right-radius: 8px;
     cursor: pointer;
 }
+button:hover {
+    background-color: #4a8fe0; /* Slightly darker shade for hover */
+  }
 ::placeholder{
     color: #fff;
     font-size: 18px;
